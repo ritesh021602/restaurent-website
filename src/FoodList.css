@@ -1,0 +1,36 @@
+.food-list {
+    margin: 0 auto;
+    height: 480 px;
+    width: 80%;
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  .food-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:  6 px;
+  }
+  
+  .food-name {
+    font-weight: bold;
+  }
+  
+  .food-price {
+    margin-left: 20px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0062cc;
+  }
+  

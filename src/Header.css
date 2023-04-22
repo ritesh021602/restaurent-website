@@ -1,0 +1,78 @@
+
+.top-header {
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .top-header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .top-header h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+.header-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .text-overlay h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .text-overlay p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+  .text-overlay::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -2;
+    border-radius: 50%;
+  }
+  
+  .text-overlay::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
