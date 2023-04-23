@@ -1,6 +1,8 @@
 
 .top-header {
-    background-color: #333333;
+    background-color: #f72b2b;
+    height: 50px;
+    border-radius: 17px;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -59,7 +61,7 @@
     left: -50%;
     width: 200%;
     height: 200%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(61, 122, 148, 0.4);
     z-index: -2;
     border-radius: 50%;
   }
